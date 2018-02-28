@@ -29,7 +29,7 @@ function sayHiToGrandma(string) {
   var loudGreeting = string.toUpperCase()
   
   if (softGreeting === string) {
-    return "I can't hear you" 
+    return "I can\'t hear you" 
   } else if (loudGreeting === string) {
     return "YES INDEED!"
   } else if (string === "I love you, Grandma.") {
