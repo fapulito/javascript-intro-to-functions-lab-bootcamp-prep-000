@@ -1,4 +1,3 @@
-
 // Test 1 
 function shout(string) {
   return string.toUpperCase() 
@@ -26,16 +25,15 @@ function logWhisper(string) {
 //Test567
 
 function sayHiToGrandma(string) {
-  var greeting = string.toLowerCase()
-  if (greeting === string) {
+  var softGreeting = string.toLowerCase()
+  var loudGreeting = string.toUpperCase()
+  
+  if (softGreeting === string) {
     return "I can't hear you" 
-  }
-}
-
-function sayHiToGrandma(string) {
-  var greeting = string.toLowerCase()
-  if (greeting === string) {
-    return "I can't hear you" 
+  } else if (loudGreeting === string) {
+    return "YES INDEED!"
+  } else if (string === "I love you, Grandma.") {
+    return "I love you, too."
   }
 }
 
